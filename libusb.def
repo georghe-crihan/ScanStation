@@ -1,0 +1,10 @@
+LIBRARY libusb0
+EXPORTS
+"usb_init"
+"usb_find_busses"
+"usb_find_devices"
+"usb_open"
+"usb_close"
+"usb_strerror"
+"usb_control_msg"
+"usb_get_busses"
